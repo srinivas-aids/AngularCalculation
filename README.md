@@ -181,11 +181,10 @@ h1{
     
     <footer>developed by srinivas</footer>
     </div>
-    
-    ~~~
-    app.module.ts
-    ~~~
-    import { NgModule } from '@angular/core';
+ ~~~
+ app.module.ts
+ ~~~  
+ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -205,7 +204,11 @@ import { RectangleComponent } from './rectangle/rectangle.component';
 })
 export class AppModule { }
 
-~~~
+~~~ 
+
+
+
+    
 ## OUTPUT:
 ![output](./images/111.jpg)
 
@@ -213,3 +216,4 @@ export class AppModule { }
 
 
 ## Result:
+This is code is executed successfully to create a webpage to make mathematical calculations using angular.
